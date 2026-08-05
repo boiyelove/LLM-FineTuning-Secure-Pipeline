@@ -1,0 +1,11 @@
+{
+  "tenantId": "tenant-a",
+  "correlationId": "rank-40-demo-001",
+  "target": "development",
+  "requestedAction": "plan_llm_finetuning_secure_pipeline",
+  "credentialMode": "workload_identity",
+  "publicNetworkAccess": false,
+  "evidenceFresh": true,
+  "approved": false,
+  "containsSecret": false
+}
