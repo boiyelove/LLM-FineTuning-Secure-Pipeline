@@ -2,6 +2,19 @@
 
 Provide an isolated, auditable fine-tuning pipeline for approved open-source LLMs and sensitive datasets.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions |
+| Services and stack | Azure Machine Learning; Storage; Key Vault; ACR; Bastion |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; YAML configuration; Python validation/tests |
+
 ## Problem statement
 
 A training request plans private data staging, managed compute, customer-controlled secrets, approved model artifacts, and auditable promotion without placing proprietary samples in logs.
